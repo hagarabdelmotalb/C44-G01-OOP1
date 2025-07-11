@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region problem1
+            WeekDays[] values = (WeekDays[])Enum.GetValues(typeof(WeekDays));
+            foreach (WeekDays day in values)
+            {
+                Console.WriteLine(day);
+            }
+            #endregion
         }
     }
 }
