@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace assignment
+public struct Point
 {
-    public enum Seasons
+    public double X;
+    public double Y;
+
+    public Point(double x, double y)
     {
-        Spring,
-        Summer,
-        Autumn,
-        Winter,
+        X = x;
+        Y = y;
     }
 }

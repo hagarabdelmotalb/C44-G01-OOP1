@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace assignment
 {
-    public enum Seasons
+    public enum Color
     {
-        Spring,
-        Summer,
-        Autumn,
-        Winter,
+        Red,
+        Green,
+        Blue
     }
 }
